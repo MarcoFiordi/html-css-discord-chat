@@ -79,7 +79,7 @@
     gap: 8px;
     border: none;
     border-radius: 999px;
-    background-color: #5a6375;
+    background-color: #636b7a;
     color: white;
     font-size: 15px;
     font-weight: 600;
@@ -87,10 +87,33 @@
   
 }
 
+    
+.chat-list {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    color: #5a6375;
+    
+}
+.chat-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
 
+}
+.chat-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.chat-avatar img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    
 
-
-
-
-
-
+}
+.chat-time{
+    margin-left: auto;
+}
